@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 import org.kotlincrypto.hash.sha2.SHA256
 

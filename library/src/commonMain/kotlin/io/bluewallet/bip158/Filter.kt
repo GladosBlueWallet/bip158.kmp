@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 /**
  * Reverses a display-order (RPC/big-endian hex) block hash into Bitcoin's

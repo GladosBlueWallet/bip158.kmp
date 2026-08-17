@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 import kotlin.test.assertContains
 import kotlin.test.assertEquals

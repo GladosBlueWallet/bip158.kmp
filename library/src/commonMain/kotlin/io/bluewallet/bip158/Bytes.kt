@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 internal fun concatBytes(vararg parts: ByteArray): ByteArray {
     var len = 0

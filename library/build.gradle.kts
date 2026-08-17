@@ -6,13 +6,13 @@ plugins {
     alias(libs.plugins.vanniktech.mavenPublish)
 }
 
-group = "bip158"
+group = "io.bluewallet"
 version = "0.0.1"
 
 kotlin {
     jvm()
     androidLibrary {
-        namespace = "bip158"
+        namespace = "io.bluewallet.bip158"
         compileSdk = libs.versions.android.compileSdk.get().toInt()
         minSdk = libs.versions.android.minSdk.get().toInt()
 

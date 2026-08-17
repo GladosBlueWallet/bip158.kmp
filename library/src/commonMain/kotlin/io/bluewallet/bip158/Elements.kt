@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 data class BasicFilterBlockInput(
     val blockBytes: ByteArray,

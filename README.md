@@ -12,12 +12,12 @@ This is a close port of the TypeScript [`bip158`](https://github.com/GladosBlueW
 ## Public API
 
 ```kotlin
-import bip158.buildBasicFilter
-import bip158.matchAnyBasicFilters
-import bip158.filterHash
-import bip158.filterHeader
-import bip158.hexToBytes
-import bip158.bytesToHex
+import io.bluewallet.bip158.buildBasicFilter
+import io.bluewallet.bip158.matchAnyBasicFilters
+import io.bluewallet.bip158.filterHash
+import io.bluewallet.bip158.filterHeader
+import io.bluewallet.bip158.hexToBytes
+import io.bluewallet.bip158.bytesToHex
 
 val filter = buildBasicFilter(blockHashDisplay, elements)
 val hits = matchAnyBasicFilters(listOf(filter), listOf(blockHashDisplay), watchlist)
@@ -29,11 +29,11 @@ Also exported: `buildGcs` / `matchGcs` / `parseGcs` / `serializeGcs` / `deserial
 ## Tests
 
 ```bash
-./gradlew :library:jvmTest
-./gradlew :library:linuxX64Test
-./gradlew :library:testAndroidHostTest
+./gradlew :bip158:jvmTest
+./gradlew :bip158:linuxX64Test
+./gradlew :bip158:testAndroidHostTest
 # on macOS:
-./gradlew :library:iosSimulatorArm64Test
+./gradlew :bip158:iosSimulatorArm64Test
 ```
 
 Official BIP-158 testnet-19 vectors live in `testdata/bip158/`.

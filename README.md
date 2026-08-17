@@ -29,11 +29,11 @@ Also exported: `buildGcs` / `matchGcs` / `parseGcs` / `serializeGcs` / `deserial
 ## Tests
 
 ```bash
-./gradlew :library:jvmTest
-./gradlew :library:linuxX64Test
-./gradlew :library:testAndroidHostTest
+./gradlew :bip158:jvmTest
+./gradlew :bip158:linuxX64Test
+./gradlew :bip158:testAndroidHostTest
 # on macOS:
-./gradlew :library:iosSimulatorArm64Test
+./gradlew :bip158:iosSimulatorArm64Test
 ```
 
 Official BIP-158 testnet-19 vectors live in `testdata/bip158/`.

@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 /**
  * SipHash-2-4 with uint32 limbs (adapted from jedisct1/siphash-js / the TS port).

@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 /**
  * Minimal Bitcoin block wire decoder — just enough structure (coinbase

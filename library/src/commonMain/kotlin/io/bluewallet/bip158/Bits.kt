@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 /** MSB-first bit stream matching BIP-158 / btcd `write_bits_big_endian`. */
 internal class BitWriter {

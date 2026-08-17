@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 private const val UINT32_MAX: Long = 0xFFFF_FFFFL
 private val UINT32_MAX_ULONG: ULong = 0xFFFF_FFFFuL

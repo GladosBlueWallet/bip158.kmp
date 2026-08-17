@@ -12,12 +12,12 @@ This is a close port of the TypeScript [`bip158`](https://github.com/GladosBlueW
 ## Public API
 
 ```kotlin
-import bip158.buildBasicFilter
-import bip158.matchAnyBasicFilters
-import bip158.filterHash
-import bip158.filterHeader
-import bip158.hexToBytes
-import bip158.bytesToHex
+import io.bluewallet.bip158.buildBasicFilter
+import io.bluewallet.bip158.matchAnyBasicFilters
+import io.bluewallet.bip158.filterHash
+import io.bluewallet.bip158.filterHeader
+import io.bluewallet.bip158.hexToBytes
+import io.bluewallet.bip158.bytesToHex
 
 val filter = buildBasicFilter(blockHashDisplay, elements)
 val hits = matchAnyBasicFilters(listOf(filter), listOf(blockHashDisplay), watchlist)

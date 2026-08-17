@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 internal data class VectorRow(
     val height: Int,

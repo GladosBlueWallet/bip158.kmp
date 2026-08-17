@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 /** Hash of a serialized filter: `SHA256d(filterBytes)` (BIP-158 "Filter Hash"). */
 fun filterHash(filterBytes: ByteArray): ByteArray = sha256d(filterBytes)

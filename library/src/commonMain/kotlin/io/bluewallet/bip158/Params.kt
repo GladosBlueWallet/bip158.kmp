@@ -1,4 +1,4 @@
-package bip158
+package io.bluewallet.bip158
 
 /** Golomb-Rice parameter `P` for BIP-158 basic filters. */
 const val BASIC_FILTER_P: Int = 19
